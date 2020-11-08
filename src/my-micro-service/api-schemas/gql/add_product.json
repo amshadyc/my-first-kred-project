@@ -29,7 +29,12 @@
             "size": {
                 "description": "XXXX",
                 "type": "string"
+            },
+            "amount": {
+                "description": "price of item",
+                "type": "float"
             }
+
         },
         "required": [],
         "description": "The add_product api creates a new product."

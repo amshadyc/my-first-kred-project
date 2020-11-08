@@ -19,6 +19,8 @@ DBConnection.connect(AppConfigUtil.get(`db:name`)).finally(async () => {
     app.use('/graphql/my-micro-service',
         MICROSERVICE1);
 
+
+
     let port = AppConfigUtil.get("microapps:port")
     let server = h.listen(port, () => {
         console.log('server started at port', port)

@@ -29,6 +29,10 @@
             "size": {
                 "description": "size",
                 "type": "string"
+            },
+            "amount": {
+                "description": "price of item",
+                "type": "float"
             }
         },
         "required": [],
@@ -67,6 +71,11 @@
                     "description": "size",
                     "type": "string"
                 },
+                
+            "amount": {
+                "description": "price of item",
+                "type": "float"
+            },
                 "_id": {
                     "description": "_id of the product",
                     "type": "string"

@@ -1,0 +1,16 @@
+{
+    "request": {
+        "type": "object",
+        "properties": {},
+        "description": "Test api for fun with"
+    },
+    "response": {
+        "type": "object",
+        "properties": {
+            "success": {
+                "description": "sucess if all well ok",
+                "type": "boolean"
+            }
+        }
+    }
+}

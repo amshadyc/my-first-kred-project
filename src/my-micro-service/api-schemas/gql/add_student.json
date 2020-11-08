@@ -1,0 +1,38 @@
+{
+    "request": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "description": "name",
+                "type": "string"
+            },
+            "age": {
+                "description": "age",
+                "type": "string"
+            },
+            "attendance": {
+                "description": "attendnce",
+                "type": "string"
+            }
+
+        },
+        "required": [],
+        "description": "The add_product api creates a new product."
+    },
+    "response": {
+        "type": "object",
+        "properties": {
+            "success": {
+                "description": "success status of api",
+                "type": "boolean"
+            },
+            "_id": {
+                "description": "_id of the product",
+                "type": "string"
+            }
+        },
+        "required": [
+            "success"
+        ]
+    }
+}
