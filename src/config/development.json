@@ -5,7 +5,7 @@
   },
   "db": {
     "base_url": "mongodb://localhost:27017",
-    "name": "dev_mapp"
+    "name": "test_amal_ts"
   },
   "vault": {
     "base": "",
